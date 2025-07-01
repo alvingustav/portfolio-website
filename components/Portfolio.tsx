@@ -22,6 +22,14 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 3,
+      name: 'Indonesian Earthquake Distribution Analysis',
+      description: 'An interactive data visualization dashboard analyzing earthquake patterns and distribution across Indonesia using Tableau. The dashboard provides comprehensive insights into seismic activity, including geographical distribution, magnitude patterns, and temporal trends, helping researchers and policymakers understand earthquake risks and patterns in the Indonesian archipelago.',
+      technologies: ['Tableau', 'Data Visualization', 'Geospatial Analysis'],
+      url: 'https://public.tableau.com/app/profile/alvin.gustav/viz/KatalogGempa/PetaSebaranTitikGempa',
+      status: 'Completed'
+    },
+    {
+      id: 4,
       name: 'Project Coming Soon',
       description: 'Another exciting project is currently in development. Stay tuned for updates on this innovative data science solution.',
       technologies: ['TBD'],
@@ -42,6 +50,9 @@ const Portfolio: React.FC = () => {
           <h2 className="text-4xl font-bold mb-12 text-center gradient-text">
             Portfolio
           </h2>
+          <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
+            Showcasing data science projects spanning stock prediction, AI-powered search systems, and geospatial analysis
+          </p>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project, index) => (
