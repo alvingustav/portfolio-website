@@ -57,7 +57,7 @@ const Hero: React.FC = () => {
             href="#portfolio"
             className="border border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-black transition-colors"
           >
-            View Portfolio
+            View Portfolio (4 Projects)
           </a>
         </motion.div>
       </div>
